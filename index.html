@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <script src="animation.js" defer></script>
+    <title>Суши-Ням</title>
+</head>
+<body>
+    <header class="container">
+        <div><img src="./img/logo.png" alt="picture"></div>
+       <nav>
+        <ul class = list>
+            <li><a href="#hero">Почему у нас</a></li>
+            <li><a href="#menu">Меню роллов</a></li>
+            <li><a href="#design-order">Оформление заказа</a></li>
+        </ul>
+       </nav>
+        <button class="btn_change_currency">$</button>
+    </header>
+    <main>
+        <section id = "hero" class="hero container">   
+            <div class="hero_content">
+                <p class="label">Новое меню</p>
+                <h1>Суши-Ням</h1>
+                <p class="subtitle">Мы обновили наше меню! Спешите попробовать сезонные новинки и насладиться изысканным вкусом наших суши и роллов. Готовим для вас лучшие блюда из свежей рыбы и отборных ингредиентов.</p>
+                <button class="btn_menu">Смотреть меню</button>
+            </div>
+            <img class="rol-1" src="./img/roll1.png" alt="picture">
+        </section>
+        <section id="why_we" class="why_we container">
+            <h2 class="title">Почему нас выбирают?</h2>
+            <div class="why_we__row">
+                <div class="row-item">
+                    <img src="./img/burger.png" alt="picture">
+                    <h3 class="item_title">Авторские рецепты</h3>
+                    <p class="item-text">Наши суши и роллы обладают уникальным сочетанием вкусов и не похожи ни на какие другие. Мы тщательно отбираем лучшие ингредиенты и создаем оригинальные рецепты, вдохновленные традиционной японской кухней.</p>
+                </div>
+                <div class="row-item">
+                    <img src="./img/Fish.png" alt="picture">
+                    <h3 class="item_title">Свежая рыба</h3>
+                    <p class="item-text">Для наших суши и роллов мы используем только свежайшую рыбу и морепродукты, закупая их у проверенных поставщиков. Мы уверены в качестве каждого ингредиента, чтобы вы могли наслаждаться идеальным вкусом.</p>
+                </div>
+                <div class="row-item">
+                    <img src="./img/food truck.png" alt="picture">
+                    <h3 class="item_title">Быстра доставка</h3>
+                    <p class="item-text">Мы доставляем в пределах МКАД за 30 минут, а если не успеем — доставка бесплатно. Мы тщательно упаковываем наши суши и роллы, чтобы они сохранили свежесть и идеальный вкус в пути</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu container">
+            <h2 class="title">выберите свой ролл</h2>
+    
+            <div class="cards">
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/roll_1.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Филадельфия</h3>
+                <p class="item-text">
+                  нори, рис для суши, японский хрен васаби, свежий огурец, разрезанный на тонкие полоски, крабовое мясо[ (крабовые палочки)
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/Roll-4.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Суши с угрем</h3>
+                <p class="item-text">
+                  Кунжутные семечки, сливочный сыр, огурец, фирменный сырный соус с кусочками копчёного угря.
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/Roll-2.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Суши стандарт</h3>
+                <p class="item-text">
+                  Нори, рис, помидор, огурец, сливочный сыр.
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/Roll-6.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Запеченный ролл с курицей</h3>
+                <p class="item-text">
+                  Панировка, нори, рис, помидор, соленый огурец, курица.
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/Roll-5.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Запеченный ролл с рыбой</h3>
+                <p class="item-text">
+                  Панировка, нори, рис, помидор, рыба
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="card__img">
+                  <img src="./img/rolls/Roll-3.png" alt="рол 1" />
+                </div>
+    
+                <h3 class="item-title">Калифорния</h3>
+                <p class="item-text">
+                  Икра Масаго, имитация краба, сливочный сыр, огурец, рис, нори
+                </p>
+                <div class="card__footer">
+                  <div class="card__info">
+                    <div class="card_info_price">
+                      <div class="price">8</div>
+                    <span class="CurrencyValue">$</span>
+                    </div>
+                    <div class="weight">360 гр</div>
+                  </div>
+                  <button class="card__button">
+                    Заказать <img src="./img/Buy.svg" alt="картинка корзины" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <section id="design-order" class="design-order container2">
+            <h2 class="title">Оформление заказа</h2>
+            <div class="design-order__content">
+                <div class="design-order__img">
+                    <img class="boxRolls" src="./img/box-rolls.png" alt="picture">
+                    <div class="glow"></div>
+                </div>
+
+                <form class="form">
+                    <h3 class="item_title">Заполните все данные и наш менеджер свяжется с вами для подтверждения заказа</h3>
+                    <div class="form-inputs">
+                        <div class="form-inputs_left">
+                            <input class="input input-style" type="text" placeholder="Ваше имя">
+                            <input class="input input-style" type="tel" placeholder="Ваш телефон">
+                            <input class="input input-style" type="text" placeholder="Ваш город">
+                            <input class="input input-style" type="text" placeholder="Ваш адрес">
+                        </div>
+                        <div class="form-inputs_rights">
+                            <textarea class="input-style" name="order" placeholder="Ваш заказ"></textarea>
+                        </div>
+                    </div>
+                    
+                    <button class="form-btn">Оформить заказ</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer container">
+        <img src="./img/logo.png" alt="picture">
+        <p>Все права защищены</p>
+    </footer>
+</body>
+</html>
